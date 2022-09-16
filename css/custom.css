@@ -1,0 +1,51 @@
+.custom_fontsize_12 {
+    font-size: 18px;
+}
+.custom_skills {
+    font-family: "Quicksand", Arial, sans-serif;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.custom_skills_icon {
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+}
+.custom_blank {
+    width: 10px;
+    height: 20px;
+}
+.custom_icon{
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 2px 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.custom_contect_icon {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 90px;
+    margin-bottom: 20px;
+}
+.custom_contect_icon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom_contect_icon i {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.custom_contect_icon i:hover {
+    transition: all 0.2s ease-in-out;
+    color: #2c98f0;
+}
+.custom_contect_icon #icon_mail {
+    font-size: 26px;
+}
