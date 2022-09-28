@@ -232,7 +232,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					               <div class="timeline-label">
 					               	<h2><p>속도보다는 이해가 중요하다고 생각합니다.</p></h2>
 					                  <p>과거 라이브러리를 배울 때 사용법은 배웠지만 동작 원리에 대해서는 고민하지 않았습니다. 이러한 습관은 팀 프로젝트에서 저의 발목을 잡았습니다. 무한 스크롤을 구현할 때 단방향이 아닌 양방향으로 구현하려는데 라이브러리에는 이러한 기능이 없었습니다. 하지만 저는 라이브러리의 동작 원리나 구현 방법에 대해 고민해보지 않았기 때문에 이에 맞는 기능을 구현하지 못하고 단방향 구현으로 바꿔야만 했습니다.
-										이후 이러한 문제를 다시 겪지 않기 위해서 라이브러리로 사용했던 기능들 구현해보는 공부를 진행하고 있으며 debounce, throttle, full page, infinity scoll 을 구현해 보았습니다.</p>
+										이후 이러한 문제를 다시 겪지 않기 위해서 라이브러리로 사용했던 기능들 구현해보는 공부를 진행하고 있으며 debounce, throttle, full page, infinity scoll, SPA를 구현해 보았습니다.</p>
 					               </div>
 					            </div>
 					         </article>
@@ -502,58 +502,50 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					</div> -->
 					<div class="row">
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-1.jpg);">
+							<div class="project" style="background-image: url(images/뮤즈대쉬.png);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="work.html">MuseDash</a></h3>
 										<span>Personal Project</span>
+										<span>게임을 좋아하는 사람들이 자유롭게 소통하는 게임커뮤니티 사이트 입니다. 자유게시판을 통해 로그인 없이 자유롭게 글을 작성할 수 있으며, 포인트를 충전하여 중고마켓에서 유저들이 등록한 게임 장비, 굿즈 등을 거래할 수 있습니다. 자유로은 글을 작성할때 유저들이 편하게 움짤을 사용할 수 있도록 Giphy 서비스를 바로 사용할 수 있으며 사용 히스토리 또한 확인 가능합니다.</span>
 										<!-- <p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
 											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
 										</p> -->
 										<p class="custom_icon">							
-											<span><a href="#"><i class="icon-github"></i> Git </a></span>											
+											<span><a href="https://github.com/Dalaranl/musedash_Project" target="_blank"><i class="icon-github"></i> Git </a></span>											
 										</p>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-2.jpg);">
+							<div class="project" style="background-image: url(images/팀플레이.png);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="work.html">Teamplay</a></h3>
 										<span>Team Project</span>
 										<span>팀 프로젝트가 필요한 경력 없는 주니어 분들을 위한 팀 프로젝트 팀 빌딩 서비스입니다. 기존의 여러가지 사이드 프로젝트 플랫폼이나 스타트업 창업 멤버를 모집하는 플랫폼들과는 다르게 취업을 위한 팀 프로젝트 포트폴리오가 필요하지만 경력이 없고 팀 프로젝트 경험이 없어서 열심히 독학을 해서 팀 프로젝트에 들어갈 준비가 되어도 같이 할 신입 팀원이 없어서 팀 프로젝트 포트폴리오를 준비하기 힘들었던 분들을 위한 서비스입니다.</span>
 										<p class="custom_icon">							
-											<span><a href="#"><i class="icon-github"></i> Git </a></span>											
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url(images/img-3.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">WithChat</a></h3>
-										<span>Team Project</span>
-										<p class="custom_icon">							
-											<span><a href="#"><i class="icon-github"></i> Git </a></span>											
+											<span><a href="https://github.com/Dalaranl/teamplay" target="_blank"><i class="icon-github"></i> Git </a></span>											
 										</p>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/img-4.jpg);">
+							<div class="project" style="background-image: url(images/지뢰찾기.png);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="work.html">MineSweeper</a></h3>
 										<span>Toy Project</span>
+										<span>React와 Redux를 이용한 지뢰찾기 게임입니다.</span>
+										<p class="custom_icon_play">					
+											<span><a href="https://dalaranl.github.io/MineSweeper/" target="_blank"><i class="icon-heart"></i> Play </a></span>											
+										</p>
 										<p class="custom_icon">							
-											<span><a href="#"><i class="icon-github"></i> Git </a></span>											
+											<span><a href="https://github.com/Dalaranl/MineSweeper" target="_blank"><i class="icon-github"></i> Git </a></span>											
 										</p>
 									</div>
 								</div>

@@ -928,8 +928,8 @@ body.offcanvas {
 
 .project {
   background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  /* background-position: center center; */
+  background-repeat: round;
   position: relative;
   height: 300px;
   width: 100%;
